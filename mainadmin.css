@@ -1,0 +1,37 @@
+.student{
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(189, 216, 207);
+    
+
+}
+.book{
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 15px;
+    margin-left:400px;
+    margin-top: -160px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 300px;
+    background-color: rgb(189, 216, 207);
+    
+}
+.book input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.student input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

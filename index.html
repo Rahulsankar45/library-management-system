@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>lms</title>
+<style>
+    .student{
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 15px;
+    margin-top: -570px;
+    margin-left: 420px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(189, 216, 207);
+    
+
+     }
+     .book{
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-top: -336px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 600px;
+    background-color: rgb(189, 216, 207);
+    
+    }
+     .book input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    }
+     .student input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+     } 
+      body{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: rgb(153, 146, 146);
+     } 
+     aside{
+        margin-top: 70px;
+        margin-left: 40px;
+
+        padding-bottom: 100px;
+        padding-left: 40px;
+        padding-top: 100px;
+        background-color: rgb(189, 216, 207);
+        width: 250px;
+        height: 100%;
+     }
+    </style> 
+</head>
+<body>
+      
+       
+        
+      
+    <center><h1 style="background-color: rgb(238, 232, 232);">Library management system</h1></center><hr>
+    <aside>
+       
+        <h1>Library time</h1>
+        <li>opening 9:00 am</li>
+        <li>closing  11:00 pm </li>
+        <li>sunday off</li>
+        
+        <br>
+        <h3> what we pravide?</h3>
+        <li>Free wifi</li>
+        <li>News paper</li>
+        <li>Ro water</li>
+        <li>Peacefull Envirnment</li>
+        <li>discussion room</li>
+    
+
+
+    </aside>
+    
+    <p><div class = "student">
+        <center><form action="login.php" method = "post">
+            <h1>student login</h1><br>&nbsp;&nbsp;&nbsp;
+           <input type="submit" id = "submit" name = "submit" value = " click it "><br>&nbsp;&nbsp;&nbsp;
+        </form>
+        <img src="student.jpg" >
+    </center>
+        <div>
+        <center>
+        <div class = "book">
+        <form action="adminlogin.php" method = "post">
+         <h1>admin login</h1><br>&nbsp;&nbsp;&nbsp;
+          <input type="submit" id = "submit" name = "submit" value = " click it "><br>&nbsp;&nbsp;&nbsp;
+        </form>
+        <img src="lib.jpg" >
+    </center>
+        </div></p>
+  
+    
+</body>
+</html>

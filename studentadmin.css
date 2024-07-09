@@ -1,0 +1,15 @@
+ th ,td{
+    border: 1px solid black;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2px;
+
+}
+a{
+  text-decoration: none;
+}
